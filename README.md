@@ -1,0 +1,1 @@
+# Generate Post Excerpt using Post Content and OpenAI 🤖

@@ -1,6 +1,4 @@
-# Generate Excerpt
-
-Generate Post Excerpt using Post Content and OpenAI 🤖
+# Generate Post Excerpt using Post Content and OpenAI 🤖
 
 Built using the [OpenAI API](https://openai.com/api/) and [Shifter Headless](https://www.getshifter.io).
 

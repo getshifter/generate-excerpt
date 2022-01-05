@@ -11,14 +11,13 @@ Built using the [OpenAI API](https://openai.com/api/) and [Shifter Headless](htt
 Link: https://abc123.hl-b.getshifter.co/wp-admin/post.php?post=38&action=edit
 ```
 
-## Output
+## Output: Excerpt
 Sample Post:
 [https://www.getshifter.io/introducing-the-new-shifter-dashboard/](https://www.getshifter.io/introducing-the-new-shifter-dashboard/)
-```
-We redesigned the Shifter dashboard based on customer feedback. It's now more usable, with an updated UI and search functionality.
-```
 
-## Input
+> We redesigned the Shifter dashboard based on customer feedback. It's now more usable, with an updated UI and search functionality.
+
+## Input: Content
 Sample Post:
 [https://www.getshifter.io/introducing-the-new-shifter-dashboard/](https://www.getshifter.io/introducing-the-new-shifter-dashboard/)
 ```

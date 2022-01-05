@@ -1,6 +1,6 @@
 # Generate Post Excerpt using Post Content and OpenAI 🤖
 
-Built using the [OpenAI API](https://openai.com/api/) and [Shifter Headless](https://www.getshifter.io).
+Built using the [OpenAI API](https://openai.com/api/), [Shifter Headless](https://www.getshifter.io), and the [WordPress REST API](https://developer.wordpress.org/rest-api/).
 
 ## Usage
 ```

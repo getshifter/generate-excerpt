@@ -5,11 +5,14 @@
 // ✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
 
 require("dotenv").config();
+const argv = require("minimist")(process.argv.slice(2));
+const postId = argv?.postId ? argv.postId : 1;
 
 const siteID = process.env.HEADLESS_SITE_ID;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const username = process.env.HEADLESS_USERNAME;
 const password = process.env.HEADLESS_PASSWORD;
+const search = argv?.search ? argv.search : 56;
 const username_password = `${username}:${password}`;
 const buffer = new Buffer.from(username_password);
 const token = buffer.toString("base64");
@@ -72,4 +75,4 @@ async function generatePostExcerpt({ postId }) {
   }
 }
 
-generatePostExcerpt({ postId: 56 });
+generatePostExcerpt({ postId: postId });

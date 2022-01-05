@@ -1,6 +1,8 @@
-# Generate Post Excerpt using Post Content and OpenAI 🤖
+# Generate Excerpt
 
-Build using the [OpenAI API](https://openai.com/api/) and [Shifter Headless](https://www.getshifter.io).
+Generate Post Excerpt using Post Content and OpenAI 🤖
+
+Built using the [OpenAI API](https://openai.com/api/) and [Shifter Headless](https://www.getshifter.io).
 
 ## Usage
 ```

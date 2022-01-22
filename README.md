@@ -4,7 +4,7 @@ Built using the [OpenAI API](https://openai.com/api/), [Shifter Headless](https:
 
 ## Usage
 ```
-❯ node index.js --postId=38
+❯ node index.js --postId=697 
 🤖 Generated Excerpt: We redesigned the Shifter dashboard based on customer feedback. It's now more usable, with an updated UI and search functionality.
 Link: https://abc123.hl-b.getshifter.co/wp-admin/post.php?post=38&action=edit
 ```
